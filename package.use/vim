@@ -1,0 +1,3 @@
+# We want these:
+app-editors/vim python vim-pager
+app-editors/gvim python vim-pager
