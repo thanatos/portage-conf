@@ -1,0 +1,117 @@
+# Alas, the day came and GNOME 3 was stabilized.
+# ─── MATE ───
+# MATE is still heavily keyword-masked, sadly. Because it's a whole DE, we have
+# a lot of unmasking to do:
+
+# required by mate (argument)
+=mate-base/mate-1.6.0 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay[extras]
+# required by mate (argument)
+=app-arch/mate-file-archiver-1.6.0-r1 ~amd64
+# required by mate-base/mate-panel-1.6.1::mate-overlay
+# required by x11-misc/mate-menu-editor-1.6.0::mate-overlay
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-base/mate-common-1.6.2 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-base/mate-file-manager-1.6.2 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-base/mate-session-manager-1.6.1-r1 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay[extras]
+# required by mate (argument)
+=mate-extra/mate-calc-1.6.0 ~amd64
+# required by mate-base/mate-applets-1.6.1::mate-overlay
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-extra/mate-character-map-1.6.0 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay[extras]
+# required by mate (argument)
+=mate-extra/mate-screensaver-1.6.0 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay[extras]
+# required by mate (argument)
+=media-gfx/mate-image-viewer-1.6.1 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay[bluetooth]
+# required by mate (argument)
+=net-wireless/mate-bluetooth-1.6.0 ~amd64
+# required by mate-base/mate-panel-1.6.1::mate-overlay
+# required by x11-misc/mate-menu-editor-1.6.0::mate-overlay
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=x11-libs/libmatewnck-1.6.1 ~amd64
+# required by media-gfx/mate-image-viewer-1.6.1::mate-overlay
+# required by mate-base/mate-1.6.0::mate-overlay[extras]
+# required by mate (argument)
+=x11-themes/mate-icon-theme-1.6.2 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=x11-themes/mate-themes-1.6.1 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-extra/mate-utils-1.6.0-r1 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-extra/mate-dialogs-1.6.1-r1 ~amd64
+# required by mate-extra/mate-system-monitor-1.6.1::mate-overlay
+# required by mate-base/mate-1.6.0::mate-overlay[extras]
+# required by mate (argument)
+=app-text/mate-doc-utils-1.6.2 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-base/mate-control-center-1.6.1-r1 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay[extras]
+# required by mate (argument)
+=mate-extra/mate-system-monitor-1.6.1 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay[extras]
+# required by mate (argument)
+=app-editors/mate-text-editor-1.6.0 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-extra/mate-polkit-1.6.0 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=x11-themes/mate-backgrounds-1.6.0 ~amd64
+# required by mate-base/mate-settings-daemon-1.6.1::mate-overlay
+# required by mate-base/mate-applets-1.6.1::mate-overlay
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-base/libmatekbd-1.6.1 ~amd64
+# required by mate-base/mate-applets-1.6.1::mate-overlay
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=dev-libs/libmateweather-1.6.2 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-extra/mate-media-1.6.0 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-base/mate-applets-1.6.1 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=x11-terms/mate-terminal-1.6.1 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=x11-misc/mate-menu-editor-1.6.0 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay[extras]
+# required by mate (argument)
+=app-text/mate-document-viewer-1.6.1-r1 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=x11-wm/mate-window-manager-1.6.2 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-base/mate-menus-1.6.0 ~amd64
+# required by media-gfx/mate-image-viewer-1.6.1::mate-overlay
+# required by mate-base/mate-1.6.0::mate-overlay[extras]
+# required by mate (argument)
+=mate-base/mate-desktop-1.6.1-r1 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-base/mate-panel-1.6.1 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay[extras]
+# required by mate (argument)
+=mate-extra/mate-power-manager-1.6.2-r2 ~amd64
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-base/mate-settings-daemon-1.6.1 ~amd64

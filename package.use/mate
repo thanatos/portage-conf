@@ -1,0 +1,7 @@
+# Alas, the day came and GNOME 3 was stabilized.
+# ─── MATE ───
+# MATE seems to require these:
+# required by x11-misc/mate-menu-editor-1.6.0::mate-overlay
+# required by mate-base/mate-1.6.0::mate-overlay
+# required by mate (argument)
+=mate-base/mate-menus-1.6.0 python
